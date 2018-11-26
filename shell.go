@@ -48,6 +48,8 @@ func DetectShell(target string) Shell {
 		return JSON
 	case "elvish":
 		return ELVISH
+	case "pwsh":
+		return POWER_SHELL
 	}
 
 	return nil

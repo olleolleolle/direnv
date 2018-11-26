@@ -14,6 +14,7 @@ mkShell {
     bashInteractive
     elvish
     fish
+    powershell
     tcsh
     zsh
   ];
